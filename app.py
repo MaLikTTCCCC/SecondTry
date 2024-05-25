@@ -1,4 +1,4 @@
-import streamlib as sl
+import streamlit as sl
 sl.write("""fucking Hell""")
 import numpy as np
 import pandas as pd
