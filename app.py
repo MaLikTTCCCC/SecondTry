@@ -11,11 +11,11 @@ map_data = pd.DataFrame(
 
 #st.map(map_data)
 
-msft=yf.Tickers('msft')
-aapl=yf.Tickers('aapl')
-meta=yf.Tickers('meta')
-amzn=yf.Tickers('amzn')
-nflx=yf.Tickers('nflx')
+msft=yf.Ticker('msft')
+aapl=yf.Ticker('aapl')
+meta=yf.Ticker('meta')
+amzn=yf.Ticker('amzn')
+nflx=yf.Ticker('nflx')
 
 Rate=msft.actions
 
