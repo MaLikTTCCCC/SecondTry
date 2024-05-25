@@ -19,5 +19,5 @@ nflx=yf.download("nflx", start="2020-01-01", end="2021-01-01")
 
 #line=st.line_chart(Rate[0:1])
 #msft['Close'].plot()
-st.pyplot(msft.plot.barh(stacked=True).figure)
+st.pyplot(msft.plot.barh(stacked=False).figure)
 
