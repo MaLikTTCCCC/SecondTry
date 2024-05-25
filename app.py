@@ -17,4 +17,5 @@ nflx=yf.Ticker('nflx')
 
 Rate=msft.actions
 
-line=st.line_chart(Rate)
+line=st.line_chart(Rate[0:1])
+
