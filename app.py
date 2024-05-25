@@ -1,2 +1,2 @@
-import streamlib as sl 
-sl.write("""fucking Hell""")
+
+streamlib.write("""fucking Hell""")
